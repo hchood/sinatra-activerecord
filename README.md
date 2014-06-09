@@ -43,8 +43,8 @@ Now require the rake tasks and your app in your `Rakefile`:
 
 ```ruby
 # Rakefile
-require "sinatra/activerecord/rake"
 require "./app"
+require "sinatra/activerecord/rake"
 ```
 
 In case you're using tools like SimpleCov, where the application needs to be
